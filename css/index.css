@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{ /*ссылки*/
+    text-decoration: none;
+}
+h4{
+    font-size: 30px;
+    margin: 10px;
+}
+
+    .descr_min{
+        margin: 10px;
+        font-size: 20px;
+    }
+
+
+input[type="text"]{
+    height: 20px;
+    width: 200px;
+}
+/*main.php*/
+.menu{ 
+    display: flex;
+}
+    nav{ /*навигация по сайту*/
+        background-color: black;
+        width: 200px;
+        display: flex;
+    }
+        .links_nav{
+            color:white;
+            position: fixed;
+            border: 3px solid white;
+            padding: 10px;
+        }
+            .login{
+                left: 5px;
+                top: 50%;
+            }
+            .register{
+                top: 50%;
+                left: 90px;
+            }
+    .main_menu{ /*Меню сайта*/
+        
+    }
+        .in_main_menu{ /**/
+            padding: 20px;
+        }
+            .links_menu{ /*ссылки в постах*/
+                color:white;
+                padding: 10px; 
+                background-color: black;
+            }
+
+
+/*end main.php*/
+
+
+/*login.php*/
+.menu_aricle{
+    display: flex;
+}
+    .nav_aricle{
+        width: 250px;
+        background-color: black;
+    }
+        .links_nav{
+            color:white;
+            position: fixed;
+            border: 3px solid white;
+            padding: 10px;
+        }
+           
+/*end login.php*/
